@@ -14,7 +14,7 @@ export const Contact = () => {
             <p>Bu platform 6 Şubat 2023 tarihli Kahramanmaraş depreminden etkilenen depremzede ve yakınlarına ücretsiz ve gönüllü bir şekilde yüz yüze/online psikososyal destek veren kişilerin bilgilerinin yer aldığı bir oluşumdur.</p>
             <p>Sisteme eklenmiş olan psikologlar/psikolojik danışmanlar/psikiyatristler ve kurum-kuruluşlar ön elemeden geçmekte ve eklenen kişilerin travma-afet eğitimleri olmasına büyük önem gösterilmektedir. </p>
             <p>Sistemde yer alabilmek için bu başvuru formunu eksiksiz doldurmanız önemlidir.</p>
-            <p className='font-bold'>Form linki: <a href="https://forms.gle/XHnbsvakkoNYs7DS8" className='underline' target="_blank" rel='noreferrer'>https://forms.gle/XHnbsvakkoNYs7DS8</a></p>
+            <p className='font-bold'>Form linki: <a href="https://forms.gle/s21ZGHM41hFKQXMPA" className='underline' target="_blank" rel='noreferrer'>https://forms.gle/XHnbsvakkoNYs7DS8</a></p>
           </div>
           <div className='pt-5 font-bold flex flex-row space-x-2 items-center text-palatte-6'><span><AiOutlineQuestionCircle className='h-5 w-5'/></span><span>Soru, görüş ve öneri için</span></div>
           <div className='w-full flex py-3 px-2 rounded-xl shadow-[0_0px_15px_0px_rgba(131,144,250,0.35)]'>
