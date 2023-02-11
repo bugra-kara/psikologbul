@@ -36,7 +36,7 @@ export const SecondSection = () => {
                         <span className='font-bold text-xl sm:text-2xl'>{item.name}</span>
                         <div className='flex flex-col pt-3 space-y-4 sm:space-y-6'>
                         <div className='flex flex-col space-y-2'>
-                              <span className='font-bold text-lg sm:text-xl flex space-x-2 items-center'><span><RiPsychotherapyLine className=' text-palatte-6'/></span><span>Grup</span></span>
+                              <span className='font-bold text-lg sm:text-xl flex space-x-2 items-center'><span><RiPsychotherapyLine className=' text-palatte-6'/></span><span>Kim için</span></span>
                               <div className='space-x-3 flex pl-1 sm:pl-0'>
                                     {
                                           item.title.map((item2,index)=> {

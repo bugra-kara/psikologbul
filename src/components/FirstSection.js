@@ -7,6 +7,7 @@ import { BsPeople } from 'react-icons/bs'
 import {MdOutlineLocationOn} from 'react-icons/md'
 import {RiPsychotherapyLine} from 'react-icons/ri'
 import { useFilterContext } from '../context/filterContext';
+import {AiOutlineInfoCircle} from 'react-icons/ai'
 const tGroups = [
   { value: 1, label: "Çocuk" },
   { value: 2, label: "Ergen" },
@@ -24,7 +25,11 @@ export const FirstSection = () => {
             handleChange(selectedOptions)
       },[selectedOptions])
       return (
-            <div className='flex w-full items-center justify-center py-10 px-2'>
+            <div className='flex flex-col w-full items-center justify-center space-y-16 py-10 px-2'>
+                  <div className='text-center flex flex-row space-x-2 items-center rounded-lg bg-palatte-3 bg-opacity-40 px-3 py-1'>
+                        <span><AiOutlineInfoCircle className=' h-6 w-6'/></span>
+                        <span className='text-lg'>Depremzedelere yönelik <strong>ücretsiz</strong> psikososyal destek veren kişi ve kurumların yer aldığı gönüllü bir platformdur.</span>
+                  </div>
                   <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-20 place-items-center'>
                         <div className='col-span-1 rounded-lg p-5 shadow-[0_0px_15px_0px_rgba(131,144,250,0.35)] h-fit w-56 sm:w-auto'>
                               <span className='justify-center flex pb-3 font-bold text-sm items-center space-x-2'><span className=' text-palatte-8'><BsPeople className='h-5 w-5'/></span><span className=' text-palatte-1'>Görüşme tercihiniz</span></span>
