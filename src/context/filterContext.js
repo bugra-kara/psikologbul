@@ -7,7 +7,7 @@ const initialState =  {
       selectedData: [...data],
       tercihler: {yuzyuze: false, cevrimici: false},
       sehir: null,
-      kimin: []
+      kim: []
 }
 const FilterContext = React.createContext()
 export const FilterProvider = ({children}) => {
@@ -16,7 +16,6 @@ export const FilterProvider = ({children}) => {
       const handleChange = (data) => {
             dispatch({type: HANDLE_CHANGE, payload: data})
       }
-      console.log(state.kimin)
       return (
         <FilterContext.Provider value={{...state, handleChange}}>{children}</FilterContext.Provider>
       )

@@ -1,1 +1,2 @@
 export const HANDLE_CHANGE = 'HANDLE_CHANGE'
+export const HANDLE_CHANGE_WHO = 'HANDLE_CHANGE_WHO'

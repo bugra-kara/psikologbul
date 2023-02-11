@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import cities from '../data/cities.json';
 import Selection from "react-select";
 import makeAnimated from 'react-select/animated';
@@ -20,6 +20,9 @@ export const FirstSection = () => {
       setSelectedOptions(Array.isArray(e) ? e.map((tGroup) => tGroup.label) : []);
       };
       const animatedComponents = makeAnimated();
+      useEffect(()=>{
+            handleChange(selectedOptions)
+      },[selectedOptions])
       return (
             <div className='flex w-full items-center justify-center py-10 px-2'>
                   <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-20 place-items-center'>

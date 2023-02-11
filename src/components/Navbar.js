@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className='col-span-2 hidden sm:flex flex-row justify-end w-full items-center space-x-3'>
               <ul className='flex flex-row space-x-3 items-center sm:text-sm lg:text-base font-bold border-r-2 pr-3'>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
-                <a class="twitter-share-button"
+                <a
                   href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
                   <BsTwitter className='h-5 w-5'/>
                 </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 </a>
                 </span></li>
               </ul>
-              <Link to={"/iletisim"} className='py-1 px-3 flex rounded-lg cursor-pointer bg-palatte-2 text-white font-semibold
+              <Link to={"/iletisim"} className='py-1 px-3 flex-none rounded-lg cursor-pointer bg-palatte-2 text-white font-semibold
                shadow-lg hover:shadow-xl ease-in duration-200'>Başvuru Yap</Link>
             </div>
             <div className='col-span-1 flex sm:hidden justify-end w-full pr-3 place-items-center text-palatte-2'>
