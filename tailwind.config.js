@@ -43,6 +43,16 @@ module.exports = withMT({
       "wp" : "#1e7d34",
       "reddit" : "#ED001C"
     },
+    fontSize: {
+      xsx: '0.6rem',
+      xlx: '1.35rem',
+      date: '40px',
+      day: '12px',
+      small: '11px',
+      head: '15px',
+      most: '1.125rem',
+      extrasmall: '10px'
+    },
     extend: {},
   },
   plugins: [],

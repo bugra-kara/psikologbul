@@ -13,15 +13,13 @@ export const SecondSection = () => {
             )
       }
   return (
-      <div className='w-full container grid grid-cols-1 gap-10 items-center justify-center pt-8 px-3 sm:px-4'>
+      <div className='w-full container grid grid-cols-1 gap-10 sm:gap-10 items-center justify-center pt-8 px-3 sm:px-4'>
       {
             selectedData.map((item)=> {
             return (
                   <div key={item.id} className='py-3 px-5 sm:px-10 rounded-xl shadow-[0_0px_15px_0px_rgba(131,144,250,0.35)]'>
                         <div className='flex flex-row items-center space-x-3 sm:space-x-5 pb-3'>
-                              <span className='text-sm sm:text-md shadow rounded font-semibold bg-palatte-2 bg-opacity-30 px-2 py-1'>
-                              {item.unvan}
-                              </span>
+                              
                               {
                               item.tercihler.yuzyuze ? <span className='text-sm sm:text-md shadow rounded font-semibold bg-palatte-6 bg-opacity-30 px-2 py-1'>
                               Yüz yüze
@@ -33,7 +31,12 @@ export const SecondSection = () => {
                               </span> : ""
                               }
                         </div>
+                        <div className='flex flex-col space-y-2'>
+                        <span className='text-sm flex-none sm:text-md shadow rounded w-fit font-semibold bg-palatte-2 bg-opacity-30 px-2 py-1'>
+                              {item.unvan}
+                        </span>
                         <span className='font-bold text-xl sm:text-2xl'>{item.name}</span>
+                        </div>
                         <div className='flex flex-col pt-3 space-y-4 sm:space-y-6'>
                         <div className='flex flex-col space-y-2'>
                               <span className='font-bold text-lg sm:text-xl flex space-x-2 items-center'><span><RiPsychotherapyLine className=' text-palatte-6'/></span><span>Kim için</span></span>
@@ -56,7 +59,7 @@ export const SecondSection = () => {
                                           : ""
                                     }
                                     {
-                                          item.sehir !== null ? <div className='col-span-1'>
+                                          item.sehir !== null ? <div className='col-span-1 capitalize'>
                                           <span className='font-bold text-sm sm:text-base'>Şehir:</span> {item.sehir}
                                           </div>
                                           : ""
