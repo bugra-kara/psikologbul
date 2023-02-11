@@ -66,13 +66,13 @@ export const SecondSection = () => {
                                     }
                                     {
                                           item['e-posta'] !== null ? <div className='col-span-1'>
-                                          <span className='font-bold text-sm sm:text-base'>E-posta:</span> <a href='mailto:haticeseymaakara@gmail.com'>{item['e-posta']}</a>
+                                          <span className='font-bold text-sm sm:text-base'>E-posta:</span> <a href={`mailto:${item['e-posta']}`}>{item['e-posta']}</a>
                                           </div>
                                           : ""
                                     }
                                     {
                                           item.telefon !== null ? <div className='col-span-1'>
-                                          <span className='font-bold text-sm sm:text-base'>Telefon:</span> <a href='tel:+905347980409'>{item.telefon}</a>
+                                          <span className='font-bold text-sm sm:text-base'>Telefon:</span> <a href={`tel:${item.telefon}`}>{item.telefon}</a>
                                           </div>
                                           : ""
                                     }

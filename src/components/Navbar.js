@@ -28,7 +28,7 @@ const Navbar = () => {
               <ul className='text-xl flex items-center flex-row space-x-5 py-4 justify-center'>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
                 <a class="twitter-share-button"
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Bu%20platformda%20depremzedelere%20yönelik%A0ücretsiz%A0psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
+                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Bu%20platformda%20depremzedelere%20yonelik%A0ucretsiz%A0psikososyal%20destek%20veren%20kisi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
                   <BsTwitter className='h-6 w-6'/>
                 </a>
                 </span></li>
