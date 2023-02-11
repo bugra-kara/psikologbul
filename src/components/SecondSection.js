@@ -5,6 +5,13 @@ import { useFilterContext } from '../context/filterContext'
 
 export const SecondSection = () => {
       const {selectedData} = useFilterContext()
+      if(selectedData.length===0){
+            return (
+                  <div className='w-full container grid grid-cols-1 gap-10 items-center justify-center pt-8 px-3 sm:px-4'>
+                        <span>Herhangi bir sonuç bulunumadı.</span>
+                  </div>
+            )
+      }
   return (
       <div className='w-full container grid grid-cols-1 gap-10 items-center justify-center pt-8 px-3 sm:px-4'>
       {
