@@ -18,7 +18,7 @@ export const Contact = () => {
           </div>
           <div className='pt-5 font-bold flex flex-row space-x-2 items-center text-palatte-6'><span><AiOutlineQuestionCircle className='h-5 w-5'/></span><span>Soru, görüş ve öneri için</span></div>
           <div className='w-full flex py-3 px-2 rounded-xl shadow-[0_0px_15px_0px_rgba(131,144,250,0.35)]'>
-            <span className='font-bold'>Mail:</span><span> <a href="mailto:bilgi@psikologbul.io">bilgi@psikologbul.io</a></span>  
+            <span className='font-bold'>Mail: </span><span> <a href="mailto:bilgi@psikologbul.io">bilgi@psikologbul.io</a></span>  
           </div>
         </div>
       </div>
