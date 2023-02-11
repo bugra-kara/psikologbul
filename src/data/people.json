@@ -13,8 +13,38 @@
             "form" : null,
             "instagram" : null
       },
-      { 
-            "id": 2, 
+{
+  	      "id": 2, 
+            "name": "Psikolojik İlk Yardım",
+            "cinsiyet": "Kadın",
+            "unvan": "Danışmanlık Merkezi",
+            "e-posta": null,
+            "telefon": "+908503083720",
+            "tercihler": {"yuzyuze": true, "cevrimici": true},
+            "title" : ["Çocuk", "Ergen", "Yetişkin"],
+            "sehir": "İstanbul" ,
+            "bilgi": null,
+            "form" : null,
+            "instagram" : "https://instagram.com/psikolojikilkyardim?igshid=NTdlMDg3MTY="
+},
+
+{
+            "id": 3, 
+            "name": "Terapi Tıp Merkezi",
+            "cinsiyet": "Kadın",
+            "unvan": "Danışmanlık Merkezi",
+            "e-posta": null,
+            "telefon": "4442763",
+            "tercihler": {"yuzyuze": true, "cevrimici": true},
+            "title" : ["Çocuk", "Ergen", "Yetişkin", "Yaşlı"],
+            "sehir": "Antalya",
+            "bilgi": null,
+            "form" : null,
+            "instagram" : null
+      }, 
+
+{ 
+            "id": 4, 
             "name": "Nurten İrem Aslan",
             "cinsiyet": "Kadın",
             "unvan": "Psikolog",
@@ -27,22 +57,8 @@
             "form" : null,
             "instagram" : null
       },
-      { 
-            "id": 3, 
-            "name": "Faruk Demiröz",
-            "cinsiyet": "Erkek",
-            "unvan": "Psikolog",
-            "e-posta": null,
-            "telefon": "+905340370900",
-            "tercihler": {"yuzyuze": false, "cevrimici": true},
-            "title" : ["Çocuk", "Ergen", "Yetişkin", "Yaşlı"],
-            "sehir": null,
-            "bilgi": "Hasan Kalyoncu Üniversitesi psikoloji ekibi koordinatörü iletişim bilgisidir.",
-            "form" : null,
-            "instagram" : null
-      },
-      { 
-            "id": 4, 
+    { 
+            "id": 5, 
             "name": "Psychociety",
             "cinsiyet": "Kadın",
             "unvan": "Danışmanlık Merkezi",
@@ -51,12 +67,12 @@
             "tercihler": {"yuzyuze": false, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin", "Yaşlı"],
             "sehir": null,
-            "bilgi": "Kurum maili üzerinden randevu alabilirsiniz.",
+            "bilgi": "Kurum maili veya instagram sayfaları üzerinden iletişime geçebilirsiniz.",
 	      "instagram": "https://www.instagram.com/psychociety.tr/?igshid=NTdlMDg3MTY%3D",
             "form" : null
       },
-      { 
-            "id": 5, 
+{ 
+            "id": 6, 
             "name": "Evimdeki Psikolog",
             "cinsiyet": "Kadın",
             "unvan": "Danışmanlık Merkezi",
@@ -69,46 +85,64 @@
             "form" : "https://docs.google.com/forms/d/e/1FAIpQLSf7qvUmssHiuGAi6TLOven_GKdk4P2RN9XNqstckyRgcmrpOQ/viewform?fbclid=PAAaY9KbkURedDjLbcHbqm2lEGoE39NlN-isRDyaMyQlC5G0H9AaRQ4m41e50",
             "instagram" : null
       },
+
       { 
-            "id": 6, 
-            "name": "Masterson Türkiye",
-            "cinsiyet": "Kadın",
-            "unvan": "Danışmanlık Merkezi",
-            "e-posta": "bilgi@mastersonturkiye.com",
-            "telefon": "+905425042242",
+            "id": 7, 
+            "name": "Faruk Demiröz",
+            "cinsiyet": "Erkek",
+            "unvan": "Psikolog",
+            "e-posta": null,
+            "telefon": "+905340370900",
             "tercihler": {"yuzyuze": false, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin", "Yaşlı"],
             "sehir": null,
-            "bilgi": null,
+            "bilgi": "Hasan Kalyoncu Üniversitesi psikoloji ekibi koordinatörü iletişim bilgisidir.",
             "form" : null,
             "instagram" : null
       },
-      { 
-            "id": 7, 
-            "name": "Cansu Kolcu",
+
+{ 
+            "id": 8, 
+            "name": "Psikoloji Balat",
             "cinsiyet": "Kadın",
-            "unvan": "Uzman Klinik Psikolog",
+            "unvan": "Danışmanlık Merkezi",
             "e-posta": null,
-            "telefon": "+905427780908",
-            "tercihler": {"yuzyuze": true, "cevrimici": false},
-            "title" : ["Çocuk", "Ergen"],
-            "sehir": "Karabük",
-            "bilgi": null,
-            "form" : null,
+            "telefon": "4442763",
+            "tercihler": {"yuzyuze": true, "cevrimici": true},
+            "title" : ["Çocuk", "Ergen", "Yetişkin", "Yaşlı"],
+            "sehir": "Bursa",
+            "bilgi": "Formu doldurarak sizinle iletişime geçmelerini sağlayabilirsiniz.",
+            "form" : "https://docs.google.com/forms/d/e/1FAIpQLSdtg-NjMQgjpcYgSl1dVSsLRfnYst1z4ot8BxqvIGf1A2JSVw/viewform",
             "instagram" : null
       },
-      {    
-	   "id": 8,
-            "name": "Zeynep Bahadır",
+
+{
+            "id": 9, 
+            "name": "Doğum için El Ele Derneği",
             "cinsiyet": "Kadın",
-            "unvan": "Psikolog",
-            "e-posta": null,
+            "unvan": "Danışmanlık Merkezi",
+            "e-posta": "bilgi@dogumicinelele.com",
             "telefon": null,
             "tercihler": {"yuzyuze": false, "cevrimici": true},
             "title" : ["Yetişkin"],
             "sehir": null,
-            "bilgi": null,
-	      "instagram": "https://www.instagram.com/psikologzeynepbahadir/?igshid=NTdlMDg3MTY%3D",
-            "form" : null
+            "bilgi": "Hamile ve lohusaların iletişime geçmesi önerilir.",
+            "form" : null,
+            "instagram" : "https://instagram.com/ruhbeyinbeden?igshid=NTdlMDg3MTY="
+      },
+
+ { 
+            "id": 10, 
+            "name": "Ruh Beyin Beden Sağlığı",
+            "cinsiyet": "Kadın",
+            "unvan": "Danışmanlık Merkezi",
+            "e-posta": null,
+            "telefon": null,
+            "tercihler": {"yuzyuze": false, "cevrimici": true},
+            "title" : ["Çocuk", "Ergen", "Yetişkin"],
+            "sehir": null,
+            "bilgi": "Instagram hesabı üzerinden iletişime geçebilirsiniz.",
+            "form" : null,
+            "instagram" : "https://instagram.com/ruhbeyinbeden?igshid=NTdlMDg3MTY="
       }
 ]
