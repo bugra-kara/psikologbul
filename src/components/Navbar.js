@@ -22,8 +22,8 @@ const Navbar = () => {
               <button className=' text-black p-1 rounded-xl' onClick={()=> {handleClick()}}><AiOutlineCloseCircle className='h-5 w-5'/></button>
             </div>
               <ul className='text-xl flex items-center flex-row py-4 justify-center'>
-                <Link to={"/iletisim"} onClick={()=> {handleClick()}} className='py-1 px-3 rounded-lg cursor-pointer bg-blue-600 text-white font-semibold
-                shadow-lg hover:shadow-xl ease-in duration-20'>Contact</Link>
+                <Link to={"/iletisim"} onClick={()=> {handleClick()}} className='py-1 px-3 rounded-lg cursor-pointer bg-palatte-2 text-white font-semibold
+                shadow-lg hover:shadow-xl ease-in duration-20'>Başvuru Yap</Link>
               </ul>
               <ul className='text-xl flex items-center flex-row space-x-5 py-4 justify-center'>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'><BsTwitter className='h-6 w-6'/></span></li>
@@ -52,10 +52,10 @@ const Navbar = () => {
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'><BsReddit className='h-5 w-5'/></span></li>
               </ul>
               <Link to={"/iletisim"} className='py-1 px-3 flex rounded-lg cursor-pointer bg-palatte-2 text-white font-semibold
-               shadow-lg hover:shadow-xl ease-in duration-200'>İletişim</Link>
+               shadow-lg hover:shadow-xl ease-in duration-200'>Başvuru Yap</Link>
             </div>
-            <div className='col-span-1 flex sm:hidden justify-end w-full place-items-center'>
-              <button onClick={()=> {handleClick()}}><GiHamburgerMenu className='h-6 w-6'/></button>
+            <div className='col-span-1 flex sm:hidden justify-end w-full pr-3 place-items-center text-palatte-2'>
+              <button className='bg-palatte-1 bg-opacity-5 p-1 rounded-lg' onClick={()=> {handleClick()}}><GiHamburgerMenu className='h-6 w-6'/></button>
             </div>
           </div>  
         </nav>

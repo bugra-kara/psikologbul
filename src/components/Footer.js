@@ -10,7 +10,7 @@ export const Footer = () => {
         </div>
         <div className='text-gray-700 text-xs flex flex-col space-y-6'>
           <p className='w-full text-center'>Bu platform, 6 Şubat 2023 tarihinde Kahramanmaraş/Türkiye’de meydana gelen iki büyük deprem sonucu oluşan psikolojik destek ihtiyacına ulaşımı kolaylaştırmak amacıyla gönüllü oluşturulmuştur.</p>
-          <p className='w-full text-center'>© 2023</p>
+          <p className='w-full text-center'>© 2023 | Made by <a href="https://www.linkedin.com/in/ahmet-bugra-kara/" target="_blank" rel='noreferrer' className='text-palatte-1'>bugra</a> for Canım Ülkem</p>
         </div>
       </div>
     </div>
