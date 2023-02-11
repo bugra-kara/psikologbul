@@ -26,11 +26,32 @@ const Navbar = () => {
                 shadow-lg hover:shadow-xl ease-in duration-20'>Başvuru Yap</Link>
               </ul>
               <ul className='text-xl flex items-center flex-row space-x-5 py-4 justify-center'>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'><BsTwitter className='h-6 w-6'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'><RiWhatsappFill className='h-6 w-6'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-fb'><AiFillFacebook className='h-6 w-6'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-ln'><AiFillLinkedin className='h-6 w-6'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'><BsReddit className='h-6 w-6'/></span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
+                <a class="twitter-share-button"
+                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                  <BsTwitter className='h-6 w-6'/>
+                </a>
+                </span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'>
+                <a href="https://wa.me/?text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
+                <RiWhatsappFill className='h-6 w-6'/>
+                </a>
+                </span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-fb'>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=psikologbul.io&quote=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                  <AiFillFacebook className='h-6 w-6'/>
+                </a>
+                </span></li>
+                {/* <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-ln'>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=psikologbul.io" target="_blank" rel='noreferrer'>
+                <AiFillLinkedin className='h-6 w-6'/>
+                </a>
+                </span></li>*/}
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'>
+                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                <BsReddit className='h-6 w-6'/>
+                </a>
+                </span></li>
               </ul>
             </div>
         </div>
@@ -45,11 +66,32 @@ const Navbar = () => {
             </div>
             <div className='col-span-2 hidden sm:flex flex-row justify-end w-full items-center space-x-3'>
               <ul className='flex flex-row space-x-3 items-center sm:text-sm lg:text-base font-bold border-r-2 pr-3'>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'><BsTwitter className='h-5 w-5'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'><RiWhatsappFill className='h-5 w-5'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-fb'><AiFillFacebook className='h-5 w-5'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-ln'><AiFillLinkedin className='h-5 w-5'/></span></li>
-                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'><BsReddit className='h-5 w-5'/></span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
+                <a class="twitter-share-button"
+                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                  <BsTwitter className='h-5 w-5'/>
+                </a>
+                </span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'>
+                <a href="https://wa.me/?text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
+                <RiWhatsappFill className='h-5 w-5'/>
+                </a>
+                </span></li>
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-fb'>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=psikologbul.io&quote=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                  <AiFillFacebook className='h-5 w-5'/>
+                </a>
+                </span></li>
+                {/* <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-ln'>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=psikologbul.io" target="_blank" rel='noreferrer'>
+                <AiFillLinkedin className='h-5 w-5'/>
+                </a>
+                </span></li>*/}
+                <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'>
+                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                <BsReddit className='h-5 w-5'/>
+                </a>
+                </span></li>
               </ul>
               <Link to={"/iletisim"} className='py-1 px-3 flex rounded-lg cursor-pointer bg-palatte-2 text-white font-semibold
                shadow-lg hover:shadow-xl ease-in duration-200'>Başvuru Yap</Link>

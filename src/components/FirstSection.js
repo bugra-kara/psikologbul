@@ -33,7 +33,7 @@ export const FirstSection = () => {
                               <Selection className='w-48' options={cities} placeholder="Şehir" onChange={handleChange}></Selection>
                         </div>
                         <div className='col-span-1 rounded-lg p-5 shadow-[0_0px_15px_0px_rgba(131,144,250,0.35)] h-fit'>
-                              <span className='justify-center flex pb-3 font-bold text-sm items-center space-x-2'><span className=' text-palatte-6'><RiPsychotherapyLine className='h-5 w-5'/></span><span className=' text-palatte-1'>Kimin için</span></span>
+                              <span className='justify-center flex pb-3 font-bold text-sm items-center space-x-2'><span className=' text-palatte-6'><RiPsychotherapyLine className='h-5 w-5'/></span><span className=' text-palatte-1'>Kim için</span></span>
                               <Selection className='w-48' options={tGroups} onChange={setHandle} closeMenuOnSelect={false} components={animatedComponents}  isMulti placeholder="Seçiniz" />
                         </div>
                   </div>
