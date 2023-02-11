@@ -1,5 +1,5 @@
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import { Home, Contact, Kvvk, UsefulLinks } from './pages';
+import { Home, Contact, Kvvk } from './pages';
 import { Layout } from './components'
 function App() {
   return (
@@ -7,7 +7,6 @@ function App() {
       <Routes>
         <Route element={<Layout/>}>
           <Route index element={<Home/>}/>
-          <Route path='/yararli-linkler' element={<UsefulLinks/>}/>
           <Route path='/iletisim' element={<Contact/>}/>
           <Route path='/kvvk' element={<Kvvk/>}/>
         </Route>

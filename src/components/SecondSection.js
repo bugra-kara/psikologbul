@@ -15,6 +15,16 @@ export const SecondSection = () => {
                               <span className='text-sm sm:text-md shadow rounded font-semibold bg-palatte-2 bg-opacity-30 px-2 py-1'>
                               {item.unvan}
                               </span>
+                              {
+                              item.tercihler.yuzyuze ? <span className='text-sm sm:text-md shadow rounded font-semibold bg-palatte-6 bg-opacity-30 px-2 py-1'>
+                              Yüz yüze
+                              </span> : ""
+                              }
+                              {
+                              item.tercihler.cevrimici ? <span className='text-sm sm:text-md shadow rounded font-semibold bg-palatte-7 bg-opacity-30 px-2 py-1'>
+                              Çevrim içi
+                              </span> : ""
+                              }
                               <span className='font-bold text-xl sm:text-2xl'>{item.name}</span>
                         </div>
                         <div className='flex flex-col pt-1 space-y-4 sm:space-y-6'>
@@ -31,7 +41,7 @@ export const SecondSection = () => {
                         </div>
                         <div className='flex flex-col space-y-2'>
                               <span className='font-bold text-lg sm:text-xl flex space-x-2 items-center'><span><AiOutlineContacts className=' text-palatte-7'/></span><span>İletişim Bilgileri</span></span>
-                              <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 pl-1 sm:pl-0'>
+                              <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 xl:gap-1 pl-1 sm:pl-0'>
                                     {
                                           item.name !== null 
                                           ? <div className='col-span-1'><span className='font-bold text-sm sm:text-base'>İsim-Soyisim:</span> {item?.name}
@@ -39,24 +49,28 @@ export const SecondSection = () => {
                                           : ""
                                     }
                                     {
-                                     item.sehir !== null ? <div className='col-span-1'>
+                                          item.sehir !== null ? <div className='col-span-1'>
                                           <span className='font-bold text-sm sm:text-base'>Şehir:</span> {item.sehir}
-                                    </div> : ""
+                                          </div>
+                                          : ""
                                     }
                                     {
                                           item['e-posta'] !== null ? <div className='col-span-1'>
                                           <span className='font-bold text-sm sm:text-base'>E-posta:</span> <a href='mailto:haticeseymaakara@gmail.com'>{item['e-posta']}</a>
-                                    </div> : ""
+                                          </div>
+                                          : ""
                                     }
                                     {
                                           item.telefon !== null ? <div className='col-span-1'>
                                           <span className='font-bold text-sm sm:text-base'>Telefon:</span> <a href='tel:+905347980409'>{item.telefon}</a>
-                                    </div> : ""
+                                          </div>
+                                          : ""
                                     }
                                     {
                                           item.instagram !== null ? <div className='col-span-1'>
                                           <span className='font-bold text-sm sm:text-base'>Sosyal Medya: </span>{item.instagram !== null ? <span><a href={item.instagram} target="_blank" rel='noreferrer' className="font-bold underline">Instagram</a></span> : ""}
-                                    </div> : ""
+                                          </div>
+                                          : ""
                                     }
                               </div>
                               {
