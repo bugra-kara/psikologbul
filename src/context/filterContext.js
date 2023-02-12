@@ -1,10 +1,11 @@
 import React, { useContext, useReducer } from 'react'
 import reducer from '../reducer/reducer'
 import data from '../data/people.json'
+import { shuffle } from 'lodash'
 import { HANDLE_CHANGE } from '../utils/action'
 const initialState =  {
-      data: [...data],
-      selectedData: [...data],
+      data: shuffle(data),
+      selectedData: shuffle(data),
       tercihler: {yuzyuze: false, cevrimici: false},
       sehir: null,
       kim: []

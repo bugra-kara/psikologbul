@@ -19,7 +19,7 @@ import {
                         return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (((item.tercihler.cevrimici === true) && (item.tercihler.yuzyuze === true)) && (item.sehir === newSehir))})
                     }
                     else {
-                        return item.sehir === newSehir || item.tercihler.cevrimici === true
+                        return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (item.tercihler.cevrimici === true || item.sehir === newSehir)})
                     }
                 }
 
