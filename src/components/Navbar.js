@@ -28,12 +28,12 @@ const Navbar = () => {
               <ul className='text-xl flex items-center flex-row space-x-5 py-4 justify-center'>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
                 <a class="twitter-share-button"
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Bu%20platformda%20depremzedelere%20yonelik%A0ucretsiz%A0psikososyal%20destek%20veren%20kisi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
+                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikologbul.io&text=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
                   <BsTwitter className='h-6 w-6'/>
                 </a>
                 </span></li>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'>
-                <a href="https://wa.me/?text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
+                <a href="https://wa.me/?text=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
                 <RiWhatsappFill className='h-6 w-6'/>
                 </a>
                 </span></li>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </a>
                 </span></li>*/}
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'>
-                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
                 <BsReddit className='h-6 w-6'/>
                 </a>
                 </span></li>
@@ -68,12 +68,12 @@ const Navbar = () => {
               <ul className='flex flex-row space-x-3 items-center sm:text-sm lg:text-base font-bold border-r-2 pr-3'>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-tw'>
                 <a
-                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikolog.io&text=Bu%20platformda%20depremzedelere%20yönelik%A0ücretsiz%A0psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
+                  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpsikologbul.io&text=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
                   <BsTwitter className='h-5 w-5'/>
                 </a>
                 </span></li>
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-wp'>
-                <a href="https://wa.me/?text=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
+                <a href="https://wa.me/?text=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir%3A%20psikologbul.io" target="_blank" rel='noreferrer'>
                 <RiWhatsappFill className='h-5 w-5'/>
                 </a>
                 </span></li>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </a>
                 </span></li>*/}
                 <li className='font-bold py-1 flex items-center space-x-2 cursor-pointer'><span className='text-reddit'>
-                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20için%3A" target="_blank" rel='noreferrer'>
+                <a href="https://www.reddit.com/submit?url=https://psikologbul.io&title=Bu%20platformda%20depremzedelere%20yönelik%20ücretsiz%20psikososyal%20destek%20veren%20kişi%20ve%20kurumlar%20listelenmektedir." target="_blank" rel='noreferrer'>
                 <BsReddit className='h-5 w-5'/>
                 </a>
                 </span></li>
