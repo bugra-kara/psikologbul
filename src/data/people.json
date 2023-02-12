@@ -193,11 +193,11 @@
             "cinsiyet": "Kadın",
             "unvan": "Danışmanlık Merkezi",
             "e-posta": "orendapsikoloji@gmail.com",
-            "telefon": "+905414393332",
+            "telefon": null,
             "tercihler": {"yuzyuze": false, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin"],
             "sehir": null,
-            "bilgi": null,
+            "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
             "instagram" : "https://instagram.com/orendapsikoloji"
       },
