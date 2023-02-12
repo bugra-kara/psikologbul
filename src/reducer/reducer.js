@@ -22,7 +22,7 @@ import {
                         return item.sehir === newSehir || item.tercihler.cevrimici === true
                     }
                 }
-                if(newSehir === null && newSehir !== 'Tüm Şehirler' && newWho.length>0) {
+                if(newSehir === null && (state.sehir !== 'Tüm Şehirler' && state.sehir !==  null) && newWho.length>0) {
                     if((newTercihler.yuzyuze === true && newTercihler.cevrimici === false)) {
                         return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (item.tercihler.yuzyuze === true)})
                     }
@@ -34,6 +34,20 @@ import {
                     }
                     else {
                         return item.sehir === newSehir || item.tercihler.cevrimici === true
+                    }
+                }
+                if(newSehir === null && newWho.length>0) {
+                    if((newTercihler.yuzyuze === true && newTercihler.cevrimici === false)) {
+                        return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (item.tercihler.yuzyuze === true)})
+                    }
+                    if(newTercihler.yuzyuze === false && newTercihler.cevrimici === true) {
+                        return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (item.tercihler.cevrimici === true)})
+                    }
+                    if(newTercihler.yuzyuze === true && newTercihler.cevrimici === true) {
+                        return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& ((item.tercihler.cevrimici === true) && (item.tercihler.yuzyuze === true))})
+                    }
+                    else {
+                        return newWho.some((e)=>{ return (item.title.some((i)=>{return (e===i)}))&& (item.tercihler.cevrimici === true)})
                     }
                 }
                 if(newSehir !== null && newSehir !== 'Tüm Şehirler' && newWho.length===0){
@@ -50,6 +64,7 @@ import {
                         return item.sehir === newSehir || item.tercihler.cevrimici === true
                     }
                 }
+                
                 else {
                     if((newTercihler.yuzyuze === true && newTercihler.cevrimici === false)) {
                         return item.tercihler.yuzyuze === true
