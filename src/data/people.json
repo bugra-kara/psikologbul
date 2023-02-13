@@ -235,11 +235,11 @@
             "cinsiyet": "Kadın",
             "unvan": "Klinik Psikolog",
             "e-posta": "ecenurpekcetin5@gmail.com",
-            "telefon": "+905421078082",
+            "telefon": null,
             "tercihler": {"yuzyuze": true, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin"],
             "sehir": "Istanbul",
-            "bilgi": null,
+            "bilgi": "Instagram hesabı üzerinden iletişime geçebilirsiniz.",
             "form" : null,
             "instagram" : "https://instagram.com/psk.ecenurpekcetin"
       },
