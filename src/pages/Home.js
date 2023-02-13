@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 import { FirstSection, SecondSection } from '../components'
 import {AiOutlineArrowUp} from 'react-icons/ai'
 
@@ -9,6 +9,7 @@ if(localStorage.getItem("cookie")=== null || localStorage.getItem("cookie") === 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false)
   const [modal,setModal] = useState(localStorage.getItem("cookie"))
+  const { pathname } = useLocation();
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
       setIsVisible(true)
@@ -27,6 +28,13 @@ export const Home = () => {
     })
   }
 
+  useEffect(() => {
+    document.documentElement.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, [pathname]);
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility)
 

@@ -1,5 +1,5 @@
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import { Home, Contact, Cookies } from './pages';
+import { Home, Contact, Cookies, Kvvk } from './pages';
 import { Layout } from './components'
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='/iletisim' element={<Contact/>}/>
           <Route path='/cerez-politikasi' element={<Cookies/>}/>
+          <Route path='/kvvk' element={<Kvvk/>}/>
           <Route path='/*' element={<Home/>}/>
         </Route>
       </Routes>
