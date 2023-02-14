@@ -221,7 +221,7 @@
             "cinsiyet": "Kadın",
             "unvan": "Danışmanlık Merkezi",
             "e-posta": "ps.danisman@gmail.com",
-            "telefon": null,
+            "telefon": "05053907304",
             "tercihler": {"yuzyuze": true, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin"],
             "sehir": "Denizli",
@@ -263,7 +263,7 @@
             "cinsiyet": "Kadın",
             "unvan": "Klinik Psikolog",
             "e-posta": "bushrakirca@gmail.com",
-            "telefon": null,
+            "telefon": "05316623087",
             "tercihler": {"yuzyuze": false, "cevrimici": true},
             "title" : ["Çocuk", "Ergen", "Yetişkin"],
             "sehir": "Bursa",
@@ -413,7 +413,7 @@
       },
 { 
             "id": 30, 
-            "name": "Pervin Ergül",
+            "name": "Hatice Vildan Yıldız",
             "cinsiyet": "Kadın",
             "unvan": "Klinik Psikolog",
             "e-posta": "haticevildanyilsiz@outlook.com",
@@ -423,7 +423,7 @@
             "sehir": null,
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/klinikpsikologhvildanyildiz"
+            "instagram" : "https://instagram.com/klinikpsikologhvildanyildiz"
       },
 { 
             "id": 31, 
@@ -437,7 +437,7 @@
             "sehir": "istanbul",
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/psikolog.zeynepsarikaya"
+            "instagram" : "https://instagram.com/psikolog.zeynepsarikaya"
       },
 { 
             "id": 32, 
@@ -451,7 +451,7 @@
             "sehir": "istanbul",
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/psikolojiktir"
+            "instagram" : "https://instagram.com/psikolojiktir"
       },
 { 
             "id": 33, 
@@ -465,7 +465,7 @@
             "sehir": "istanbul",
             "bilgi": "Instagram hesabı üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/hiss.psikoloji"
+            "instagram" : "https://instagram.com/hiss.psikoloji"
       },
 { 
             "id": 34, 
@@ -479,7 +479,7 @@
             "sehir": null,
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/dr.pinarozdemir"
+            "instagram" : "https://instagram.com/dr.pinarozdemir"
       },
 { 
             "id": 35, 
@@ -493,7 +493,7 @@
             "sehir": null,
             "bilgi": null,
             "form" : null,
-            "instagram" : "instagram.com/kidolog"
+            "instagram" : "https://instagram.com/kidolog"
       },
 { 
             "id": 36, 
@@ -507,7 +507,7 @@
             "sehir": "istanbul",
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/pskzehrayigit"
+            "instagram" : "https://instagram.com/pskzehrayigit"
       },
 { 
             "id": 37, 
@@ -521,7 +521,7 @@
             "sehir": "Aydın",
             "bilgi": null,
             "form" : null,
-            "instagram" : "instagram.com/pskgonulersoy"
+            "instagram" : "https://instagram.com/pskgonulersoy"
       },
 { 
             "id": 38, 
@@ -535,7 +535,7 @@
             "sehir": null,
             "bilgi": "Instagram hesabı veya mail üzerinden iletişime geçebilirsiniz.",
             "form" : null,
-            "instagram" : "instagram.com/psikologzeynepbahadir"
+            "instagram" : "https://instagram.com/psikologzeynepbahadir"
       },
 { 
             "id": 39, 
@@ -563,7 +563,7 @@
             "sehir": null,
             "bilgi": null,
             "form" : null,
-            "instagram" : "instagram.com/psksinemcelik"
+            "instagram" : "https://instagram.com/psksinemcelik"
       },
 { 
             "id": 41, 
@@ -577,7 +577,7 @@
             "sehir": "Bursa",
             "bilgi": null,
             "form" : null,
-            "instagram" : "instagram.com/pd.ftmky"
+            "instagram" : "https://instagram.com/pd.ftmky"
       },
 { 
             "id": 42, 
@@ -605,6 +605,6 @@
             "sehir": null,
             "bilgi": null,
             "form" : null,
-            "instagram" : "instagram.com/pskduyguklc"
+            "instagram" : "https://instagram.com/pskduyguklc"
       }
 ]
